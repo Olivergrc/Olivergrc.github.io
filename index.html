@@ -1,37 +1,146 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>CV - Oliver García</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Oliver García</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .contenedor {
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            overflow: hidden;
+        }
+
+        .encabezado {
+            background-color: #0d47a1;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .encabezado h1 {
+            margin: 0;
+            font-size: 38px;
+        }
+
+        .encabezado p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        .contenido {
+            padding: 30px;
+        }
+
+        h2 {
+            color: #0d47a1;
+            border-bottom: 2px solid #0d47a1;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+
+        p, li {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .contacto {
+            background-color: #e3f2fd;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+        }
+
+        .footer {
+            text-align: center;
+            background-color: #f1f1f1;
+            padding: 15px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        @media (max-width: 600px) {
+            .encabezado h1 {
+                font-size: 28px;
+            }
+
+            .encabezado p {
+                font-size: 16px;
+            }
+
+            .contenido {
+                padding: 20px;
+            }
+        }
+    </style>
 </head>
-<body style="font-family: Arial; margin: 40px;">
+<body>
 
-    <h1 style="color: darkblue;">Oliver García</h1>
-    <p><b>Estudiante de Desarrollo de Software</b></p>
+    <div class="contenedor">
+        <div class="encabezado">
+            <h1>Oliver García</h1>
+            <p>Estudiante de Desarrollo de Software</p>
+        </div>
 
-    <hr>
+        <div class="contenido">
+            <h2>Perfil</h2>
+            <p>
+                Soy estudiante de Desarrollo de Software con interés en programación,
+                bases de datos y desarrollo web. Me considero una persona responsable,
+                organizada y con deseos de seguir aprendiendo para fortalecer mis habilidades
+                en el área tecnológica.
+            </p>
 
-    <h2>Perfil</h2>
-    <p>
-        Soy estudiante de desarrollo de software con interés en programación,
-        bases de datos y tecnología. Me caracterizo por ser responsable,
-        autodidacta y con ganas de seguir aprendiendo.
-    </p>
+            <h2>Educación</h2>
+            <ul>
+                <li>Técnico en Desarrollo de Software (en curso)</li>
+                <li>Estudios diversificados finalizados</li>
+            </ul>
 
-    <h2>Educación</h2>
-    <ul>
-        <li>Técnico en Desarrollo de Software (en curso)</li>
-    </ul>
+            <h2>Habilidades</h2>
+            <ul>
+                <li>Python básico</li>
+                <li>SQL básico</li>
+                <li>GitHub</li>
+                <li>HTML básico</li>
+                <li>Trabajo en equipo</li>
+                <li>Responsabilidad y disposición para aprender</li>
+            </ul>
 
-    <h2>Habilidades</h2>
-    <ul>
-        <li>Python básico</li>
-        <li>SQL</li>
-        <li>GitHub</li>
-    </ul>
+            <h2>Objetivo Profesional</h2>
+            <p>
+                Mi objetivo es adquirir experiencia en el área de tecnología y seguir
+                desarrollando conocimientos que me permitan crecer profesionalmente
+                como futuro desarrollador de software.
+            </p>
 
-    <h2>Contacto</h2>
-    <p>Guatemala</p>
+            <h2>Contacto</h2>
+            <div class="contacto">
+                <p><strong>Ubicación:</strong> Guatemala</p>
+                <p><strong>Correo:</strong> correo@ejemplo.com</p>
+                <p><strong>Teléfono:</strong> 0000-0000</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            CV en línea creado con HTML y GitHub Pages
+        </div>
+    </div>
 
 </body>
 </html>
